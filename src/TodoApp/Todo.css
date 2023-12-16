@@ -1,0 +1,28 @@
+body{
+    background-color: lightcyan;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+#basic-addon2{
+    cursor: pointer;
+}
+
+.list{
+    list-style: none;
+}
+
+.fa-trash-alt{
+    cursor: pointer;
+    color: black;
+}
+
+.fa-edit{
+    cursor: pointer;
+    color: black;
+}
+

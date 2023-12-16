@@ -1,0 +1,11 @@
+/* .delete {
+	position:absolute;
+	top:30px;
+    right:5px;
+    color:#FF0000;
+} */
+
+.colum{
+    display: flex;
+    justify-content: space-around;
+}

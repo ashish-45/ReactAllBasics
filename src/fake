@@ -1,0 +1,57 @@
+<i class="far fa-trash-alt"></i>
+
+ <audio ref={inputRef} src="https://upload.wikimedia.org/wikipedia/commons/1/15/Bicycle-bell.wav" className={classes.audios} controls />
+
+    const inputRef = useRef(null);
+
+
+<TableRow>
+                            <TableCell style={{ display: 'flex', justifyContent: 'space-around' }}>
+                                <div>
+                                    <h3>{like1} <ThumbUpAltIcon className={classes.icon} onClick={() => setLike1(like1 + 1)} /> shreya Goshal</h3>
+                                </div>
+                                <div>
+                                    <audio ref={inputRef} src="https://upload.wikimedia.org/wikipedia/commons/1/15/Bicycle-bell.wav" className={classes.audios} controls />
+                                </div>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell className="colum" style={{ display: 'flex', justifyContent: 'space-around' }}>
+                                <div>
+                                    <h3>{like2} <ThumbUpAltIcon className={classes.icon} onClick={() => setLike2(like2 + 1)} /> Sonu Nigam</h3>
+                                </div>
+                                <div>
+                                    <audio ref={inputRef} src="https://upload.wikimedia.org/wikipedia/commons/1/15/Bicycle-bell.wav" className={classes.audios} controls />
+                                </div>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell style={{ display: 'flex', justifyContent: 'space-around' }}>
+                                <div>
+                                    <h3>{like3} <ThumbUpAltIcon className={classes.icon} onClick={() => setLike3(like3 + 1)} /> Kishor kumar</h3>
+                                </div>
+                                <div>
+                                    <audio ref={inputRef} src="https://upload.wikimedia.org/wikipedia/commons/1/15/Bicycle-bell.wav" className={classes.audios} controls />
+                                </div>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell style={{ display: 'flex', justifyContent: 'space-around' }}>
+                                <div>
+                                    <h3>{like4} <ThumbUpAltIcon className={classes.icon} onClick={() => setLike4(like4 + 1)} /> Arijit Singh</h3>
+                                </div>
+                                <div>
+                                    <audio ref={inputRef} src="https://upload.wikimedia.org/wikipedia/commons/1/15/Bicycle-bell.wav" className={classes.audios} controls />
+                                </div>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell style={{ display: 'flex', justifyContent: 'space-around' }}>
+                                <div>
+                                    <h3>{like5} <ThumbUpAltIcon className={classes.icon} onClick={() => setLike5(like5 + 1)} /> Alka Yagnik</h3>
+                                </div>
+                                <div>
+                                    <audio ref={inputRef} src="https://upload.wikimedia.org/wikipedia/commons/1/15/Bicycle-bell.wav" className={classes.audios} controls />
+                                </div>
+                            </TableCell>
+                        </TableRow>

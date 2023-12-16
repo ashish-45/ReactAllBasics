@@ -1,0 +1,13 @@
+.cart-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.cart-table th, .cart-table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.cart-table th {
+    background-color: #f2f2f2;
+}
